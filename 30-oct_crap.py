@@ -23,7 +23,8 @@ for FILE in os.listdir():
 ### THINGS TO DO ###
 
 # 1. Make this script fit in with the batch numbering system originally used. 
-# 2. Figure out why the last fasta file in the batch (i.e. the 50th batch) is not being included in the loop.
+# 2. Adjust the directory structure to match the desired format... i.e. the RMPart plus all the 001, 002, 003, etc. 
+# 3. Figure out why the last fasta file in the batch (i.e. the 50th batch) is not being included in the loop.
         # i.e. There isn't a .lft file made for the last batch.
     
     
