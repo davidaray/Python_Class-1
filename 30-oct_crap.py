@@ -17,3 +17,13 @@ for FILE in os.listdir():
                     END = int(SPLIT_PART2[1])
                     LENGTH = END-START
                     OUTPUT.write(str(START) + '\t' + str(HEADER2) + '\t' + str(LENGTH) + '\t' + str(CONTIG) + '\t' + str(END) + '\n')
+
+                    
+                    
+### THINGS TO DO ###
+
+# 1. Make this script fit in with the batch numbering system originally used. 
+# 2. Figure out why the last fasta file in the batch (i.e. the 50th batch) is not being included in the loop.
+        # i.e. There isn't a .lft file made for the last batch.
+    
+    
